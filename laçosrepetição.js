@@ -1,10 +1,18 @@
 const input = require("prompt-sync")();
 
-input(`preços dos produtos: `);
-let compra = 0
-let preço = 0
+const senha = 'abacaju'
+let tentativas = 3 
+let senha_dg 
 
-while(preço <= 1){
-    console.log(`cazaquistao ${preço}`)
-    preço++
-}
+do{
+    senha_dg = input('tente seu insolente:  ')
+    tentativas--;
+    if( senha_dg != senha ){
+        console.log(`Senha incorreta. Você tem ${tentativas} tentativa(s) restante(s).`)
+    }
+}while(senha_dg != senha && tentativas > 0) 
+    if(senha_dg == senha ){
+        console.log("voce acertou ")
+    }else{
+        console.log("tu e demente")
+    }
