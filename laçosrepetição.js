@@ -1,5 +1,7 @@
 const input = require("prompt-sync")();
 
+
+
 const senha = 'abacaju'
 let tentativas = 3 
 let senha_dg 
@@ -14,5 +16,5 @@ do{
     if(senha_dg == senha ){
         console.log("voce acertou ")
     }else{
-        console.log("tu e demente")
+        console.log("voce e uma bixona")
     }
