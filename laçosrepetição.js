@@ -31,22 +31,37 @@
 
 // console.log(`resultado do fatorial ${amen} é ${calcularFatorial(amen)} `)
 
+
+
+// function analisarNumero(pnc){
+//      if(pnc/2 == 0){
+//         console.log("receba pai par")
+//      }
+//      if(pnc/2 == 1){
+//         console.log("receba pai impar")
+//      };
+//      if(pnc < 0){
+//        console.log("receba pai negativo")
+//      }
+//      else{
+//         console.log("receba pai positivo")
+//      }
+// } 
+
+
+// console.log("receba pai")
+
+
 const input = require("prompt-sync")();
 
-function analisarNumero(pnc){
-     if(pnc/2 == 0){
-        console.log("receba pai par")
-     }
-     if(pnc/2 == 1){
-        console.log("receba pai impar")
-     };
-     if(pnc < 0){
-       console.log("receba pai negativo")
-     }
-     else{
-        console.log("receba pai positivo")
-     }
-} 
+function ehPrimo(n){
+    for(n > 0){
+      return " e se f"
+   }
+   
+
+}
 
 
-console.log("receba pai")
+console.log(ehPrimo(parseInt(input("Digite um número: "))));
+ 
