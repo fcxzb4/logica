@@ -64,27 +64,41 @@
 //   for(let j = 0; j )
 // }
 
+
+// const arrayA = [3, 10, 15, 22, 8, 19, 30, 42];
+// const arrayB = [5, 12, 1, 25, 18, 7, 27, 33];
+
+// const arrayPar = [];
+// const arrayImpar = [];
+
+// for (let i = 0; i < arrayA.length; i++) {
+//     if (arrayA[i] % 2 === 0) {
+//         arrayPar.push(arrayA);
+//     } else {
+//         console.log("impar");
+//     }
+// }
+// for (let i = 0; i < arrayB.length; i++) {
+//     if (arrayB[i] % 2 === 0) {
+//         arrayPar.push(i);
+//     } else {
+//         console.log("impar");
+//     }
+// }
+
+// console.log(arrayPar);
+
+
 const input = require("prompt-sync")();
+const tick = [
+    [0, 1, 2]
+    [0, 1, 2]
+    [0, 1, 2]
+];
+let guest1 = "x";
+let guest2 = "o";
+let ongame = true; 
 
-const arrayA = [3, 10, 15, 22, 8, 19, 30, 42];
-const arrayB = [5, 12, 1, 25, 18, 7, 27, 33];
+for(let i = 0; i < tick ; i++){
 
-const arrayPar = [];
-const arrayImpar = [];
-
-for (let i = 0; i < arrayA.length; i++) {
-    if (arrayA[i] % 2 === 0) {
-        arrayPar.push(arrayA);
-    } else {
-        console.log("impar");
-    }
 }
-for (let i = 0; i < arrayB.length; i++) {
-    if (arrayB[i] % 2 === 0) {
-        arrayPar.push(i);
-    } else {
-        console.log("impar");
-    }
-}
-
-console.log(arrayPar);

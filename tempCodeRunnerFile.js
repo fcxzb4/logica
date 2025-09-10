@@ -1,3 +1,3 @@
-
-    console.log("par");
-  } else {
+switch (tick){
+//     case ". . ."
+// }
