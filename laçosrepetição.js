@@ -89,16 +89,60 @@
 // console.log(arrayPar);
 
 
-const input = require("prompt-sync")();
-const tick = [
-    [0, 1, 2]
-    [0, 1, 2]
-    [0, 1, 2]
-];
-let guest1 = "x";
-let guest2 = "o";
-let ongame = true; 
+// const input = require("prompt-sync")();
+// const tick = [
+//     [0, 1, 2]
+//     [0, 1, 2]
+//     [0, 1, 2]
+// ];
+// let guest1 = "x";
+// let guest2 = "o";
+// let ongame = true; 
 
-for(let i = 0; i < tick ; i++){
+// for(let i = 0; i < tick ; i++){
+
+// }
+
+// const carro = { 
+//     nome:"uno",
+//     ano:"2010"
+// }
+// delete carro.ano ;
+//     console.log(carro.ano)
+
+const input = require("prompt-sync")();
+
+const  produtos = [
+  { id: 1,  nome: "Arroz Tipo 1 5kg",        categoria: "Grãos",      preco: 24.90, unidade: "pacote", quantidadeEmEstoque: 48, perecivel: false, descricao: "Arroz branco polido, marca tradicional." },
+  { id: 2,  nome: "Feijão Carioca 1kg",      categoria: "Grãos",      preco: 7.50,  unidade: "pacote", quantidadeEmEstoque: 60, perecivel: false, descricao: "Feijão carioca de qualidade." },
+  { id: 3,  nome: "Açúcar Refinado 1kg",     categoria: "Açúcar",     preco: 4.20,  unidade: "pacote", quantidadeEmEstoque: 80, perecivel: false, descricao: "Açúcar branco refinado." },
+  { id: 4,  nome: "Óleo de Soja 900ml",       categoria: "Óleos",      preco: 6.99,  unidade: "garrafa", quantidadeEmEstoque: 34, perecivel: false, descricao: "Óleo de soja para uso culinário." },
+  { id: 5,  nome: "Leite Integral 1L",       categoria: "Laticínios", preco: 3.80,  unidade: "caixa",   quantidadeEmEstoque: 120, perecivel: true,  descricao: "Leite UHT integral." },
+  { id: 6,  nome: "Manteiga 200g",           categoria: "Laticínios", preco: 9.50,  unidade: "tablete", quantidadeEmEstoque: 26, perecivel: true,  descricao: "Manteiga com sal." },
+  { id: 7,  nome: "Pão de Forma 500g",       categoria: "Padaria",    preco: 7.00,  unidade: "pacote", quantidadeEmEstoque: 40, perecivel: true,  descricao: "Pão de forma fatiado." },
+  { id: 8,  nome: "Ovos Branco 12un",        categoria: "Hortifruti", preco: 8.90,  unidade: "dúzia",   quantidadeEmEstoque: 70, perecivel: true,  descricao: "Ovos tamanho médio." },
+  { id: 9,  nome: "Maçã Gala 1kg",           categoria: "Hortifruti", preco: 6.99,  unidade: "kg",      quantidadeEmEstoque: 22, perecivel: true,  descricao: "Maçã Gala fresca." },
+  { id: 10, nome: "Banana Prata 1kg",        categoria: "Hortifruti", preco: 4.50,  unidade: "kg",      quantidadeEmEstoque: 50, perecivel: true,  descricao: "Banana prata para consumo diário." },
+  { id: 11, nome: "Frango Resfriado 1kg",    categoria: "Carnes",     preco: 12.90, unidade: "kg",      quantidadeEmEstoque: 15, perecivel: true,  descricao: "Frango corte practice." },
+  { id: 12, nome: "Carne Bovina 1kg",        categoria: "Carnes",     preco: 29.99, unidade: "kg",      quantidadeEmEstoque: 10, perecivel: true,  descricao: "Coxão mole ou similar." },
+  { id: 13, nome: "Macarrão Espaguete 500g", categoria: "Massas",     preco: 3.30,  unidade: "pacote", quantidadeEmEstoque: 90, perecivel: false, descricao: "Espaguete tradicional." },
+  { id: 14, nome: "Molho de Tomate 340g",    categoria: "Condimentos",preco: 2.80,  unidade: "vidro",   quantidadeEmEstoque: 75, perecivel: false, descricao: "Molho de tomate temperado." },
+  { id: 15, nome: "Café Torrado 500g",       categoria: "Bebidas",    preco: 16.50, unidade: "pacote", quantidadeEmEstoque: 33, perecivel: false, descricao: "Café torrado e moído." },
+  { id: 16, nome: "Chá Mate 20 saquinhos",   categoria: "Bebidas",    preco: 4.00,  unidade: "caixa",   quantidadeEmEstoque: 60, perecivel: false, descricao: "Sachets de chá mate." },
+  { id: 17, nome: "Água Mineral 1.5L",       categoria: "Bebidas",    preco: 2.50,  unidade: "garrafa", quantidadeEmEstoque: 200,perecivel: false, descricao: "Água mineral sem gás." },
+  { id: 18, nome: "Sabão em Pó 1kg",         categoria: "Limpeza",    preco: 9.90,  unidade: "pacote", quantidadeEmEstoque: 45, perecivel: false, descricao: "Sabão em pó para roupas." },
+  { id: 19, nome: "Detergente Líquido 500ml",categoria: "Limpeza",    preco: 3.20,  unidade: "frasco",  quantidadeEmEstoque: 55, perecivel: false, descricao: "Detergente neutro para louças." },
+  { id: 20, nome: "Papel Higiênico 12un",    categoria: "Higiene",    preco: 18.00, unidade: "pacote", quantidadeEmEstoque: 30, perecivel: false, descricao: "Rolo clássico 30m." }
+];
+
+
+let carrito = {
+    cliente:"bolsonabo",
+    produtosCarro:[],
+    totalCal: 0,
+};
+
+for( let i = 0; i < carrito.length ; i++ ){
+     
 
 }
